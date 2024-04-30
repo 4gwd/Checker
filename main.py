@@ -1,11 +1,4 @@
 import os
-os.system("pip install requests")
-os.system("pip install pyfiglet")
-os.system("pip install json")
-os.system("pip install time")
-os.system("pip install user_agent")
-os.system("pip install urllib")
-os.system("pip install bs4")
 import requests
 import pyfiglet
 import json
