@@ -1,7 +1,6 @@
 requests
 pyfiglet
 bs4
-urllib
 user_agent
 time
 json
