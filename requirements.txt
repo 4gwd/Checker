@@ -128,7 +128,6 @@ typing_extensions==4.7.1
 undetected-chromedriver==3.5.3
 urllib3==2.2.1
 urllib5==66.0.2
-random
 user-agent==0.1.10
 webencodings==0.5.1
 websocket==0.2.1
@@ -136,9 +135,6 @@ websockets==11.0.3
 Werkzeug==2.3.7
 wget==3.2
 wsproto==1.2.0
-datetime
-string
 yarl==1.9.2
 zope.event==5.0
 zope.interface==6.1
-threading
