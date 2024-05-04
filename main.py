@@ -1065,7 +1065,7 @@ def respond_to_vbv(message):
 			del data[re]
 			with open('data.json', 'w') as json_file:
 				json.dump(data, json_file, ensure_ascii=False, indent=4)
-			msg=f'''<b>𝗙𝗟𝗔𝗦𝗛 𝗩𝗜𝗣 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
+			msg=f'''<b>𝗧𝗔𝗞𝗘𝗠𝗜𝗖𝗛𝗜 𝗩𝗜𝗣 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
 𝗧𝗬𝗣 ➜ {typ}</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
