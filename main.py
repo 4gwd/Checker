@@ -454,6 +454,17 @@ def menu_callback(call):
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
 𝗕𝗼𝘁 𝗕𝘆: @Q_2_M</b>'''
+					msgC=f'''<b>CCN ✅
+			
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝙄𝙣𝙛𝙤 ➼ {card_type} - {brand}
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
+𝘽𝙞𝙣 ➼ {cc[:6]}
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝗕𝗼𝘁 𝗕𝘆: @Q_2_M</b>'''
 					if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
@@ -461,9 +472,10 @@ def menu_callback(call):
 						risk+=1
 					elif 'CVV' in last:
 						ccnn+=1
+						bot.send_message(call.from_user.id, msgC)
 					else:
 						dd += 1
-					time.sleep(4)
+					time.sleep(2)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
