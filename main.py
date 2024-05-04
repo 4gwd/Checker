@@ -1,5 +1,4 @@
 import os
-from server import server
 import re,json,telebot
 import requests
 import telebot,time,random
@@ -1296,6 +1295,6 @@ def menu_callback(call):
 print("تم تشغيل البوت")
 while True:
 	try:
-	    server();bot.polling(none_stop=True)
+	    bot.polling(none_stop=True)
 	except Exception as e:
 		print(f"حدث خطأ: {e}")
