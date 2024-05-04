@@ -454,7 +454,7 @@ def menu_callback(call):
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
 𝗕𝗼𝘁 𝗕𝘆: @Q_2_M</b>'''
-					msgC=f'''<b>CCN ✅
+					msgC=f'''<b>𝘾𝘾𝗡 ✅
 			
 𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
 𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
