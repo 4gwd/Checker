@@ -28,7 +28,6 @@ fake-headers==1.0.2
 fake-useragent==1.1.1
 Faker==21.0.0
 Flask==2.3.3
-fore==0.1
 frozenlist==1.4.0
 futures==2.0
 getuseragent==0.0.7
