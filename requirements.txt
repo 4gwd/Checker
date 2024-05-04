@@ -50,7 +50,6 @@ hstspreload==2023.1.1
 html5lib==1.1
 httpcore==0.9.1
 httplib2==0.22.0
-httpx==0.13.3
 hyperframe==5.2.0
 idna==3.6
 itsdangerous==2.1.2
